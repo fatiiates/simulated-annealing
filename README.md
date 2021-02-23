@@ -36,7 +36,7 @@
  
  #### Ackley Fonksiyonu
  
-- Fonksiyon: ![\Large x=f(x,%20y)={-20exp[-0.2\sqrt{0.5(x^2+y^2)}]-exp[0.5(cos2{\pi}x+cos2{\pi}y)]+e+20}](https://latex.codecogs.com/svg.latex?\Large&space;f(x,%20y)={-20exp[-0.2\sqrt{0.5(x^2+y^2)}]-exp[0.5(cos2{\pi}x+cos2{\pi}y)]+e+20}) 
+- Fonksiyon: ![\Large x=f(x,%20y)={-20exp[-0.2\sqrt{0.5(x^2%20+%20y^2)}]-exp[0.5(cos2{\pi}x%20+%20cos2{\pi}y)]%20+%20e%20+%2020}](https://latex.codecogs.com/svg.latex?\Large&space;f(x,%20y)={-20exp[-0.2\sqrt{0.5(x^2%20+%20y^2)}]-exp[0.5(cos2{\pi}x%20+%20cos2{\pi}y)]%20+%20e%20+%2020}) 
 - Global minimum: ![\Large x=f(0,%200)={0}](https://latex.codecogs.com/svg.latex?\Large&space;f(0,%200)={0})
 - Değer aralığı: ![\Large x=-5%20\leq%20x,y%20\leq%205](https://latex.codecogs.com/svg.latex?\Large&space;-5%20\leq%20x,y%20\leq%205)
 
@@ -80,8 +80,8 @@ Elde edilen değerler
  #### Lévi Fonksiyonu
 
 - Fonksiyon: ![\Large x=f(x,%20y)={sin^23{\pi}x%20+%20(x%20-%201)^2(1%20+%20sin^23{\pi}y)%20+%20(y%20-%201)^2(1%20+%20sin^22{\pi}y)}](https://latex.codecogs.com/svg.latex?\Large&space;f(x,%20y)={sin^23{\pi}x%20+%20(x%20-%201)^2(1%20+%20sin^23{\pi}y)%20+%20(y%20-%201)^2(1%20+%20sin^22{\pi}y)}) 
-- Global minimum: ![\Large x=f(0,%20-1)={3}](https://latex.codecogs.com/svg.latex?\Large&space;f(0,%20-1)={3})
-- Değer aralığı: ![\Large x=-2%20\leq%20x,y%20\leq%202](https://latex.codecogs.com/svg.latex?\Large&space;-2%20\leq%20x,y%20\leq%202)
+- Global minimum: ![\Large x=f(1,%201)={0}](https://latex.codecogs.com/svg.latex?\Large&space;f(1,%201)={0})
+- Değer aralığı: ![\Large x=-10%20\leq%20x,y%20\leq%2010](https://latex.codecogs.com/svg.latex?\Large&space;-10%20\leq%20x,y%20\leq%2010)
 
 Elde edilen değerler
 
