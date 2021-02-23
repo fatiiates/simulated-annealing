@@ -1,21 +1,26 @@
+- [EN description](#en)  
+- [TR açıklama](#tr)
 # Tavlama Benzetimi(Simulated Annealing)
- Tavlama benzetimi belirli bir fonksiyonun global optimum değerini olasılıksal olarak tahmin etmek kullanılan meta-sezgisel tekniktir.
+
+# [TR]
+## Tavlama Benzetimi Nedir ?
+&emsp;&emsp;Tavlama benzetimi belirli bir fonksiyonun global optimum değerini stokastik olarak tahmin etmek için kullanılan meta-sezgisel yöntemdir.
  
 # Nasıl Çalışır ?
-Annealing, metalürjide kullanılan işlemlerden biri olan metali ısıtıp kontrollü olarak soğutma tekniğinden gelmektedir. Dolayısıyla aynı teknik algoritmada da mevcuttur.
+&emsp;&emsp;Tavlama(Annealing), metalürjide sıkça kullanılan işlemlerden biri olan metali belirli bir seviyeye kadar ısıtıp kontrollü olarak soğutarak yapısının sağlamlaştırıldığı bir teknikten gelmektedir. Aynı tekniği algoritmaya döküp fonksiyonlara uygulayarak fonksiyonların global minimumlarını elde edebiliriz.
 
 - Adım 1: Başlangıç çözümü, başlangıç sıcaklığı, başlangıç çözümü belirlenir.
 - Adım 2: Mevcut x,y değerlerine karşın rassal olarak yeni komşu x,y değerleri üretilir.
 - Adım 3: Mevcut çözüm ile yeni komşu değerler ile hesaplanan çözüm karşılaştırılır.
 - Adım 4: Eğer yeni çözüm > mevcut çözüm ise; Boltzmann dağılımı hesaplanır.
-- Adım 4.1: Rastgele bir değer hesaplanır ve hesaplanan değer > Boltzmann dağılımı ise değerler güncellenir.
+   - Adım 4.1: Rastgele bir değer hesaplanır ve hesaplanan değer > Boltzmann dağılımı ise değerler güncellenir.
 - Adım 5: Eğer yeni çözüm <= mevcut çözüm ise değerler güncellenir.
 - Adım 6: Sıcaklık fraksiyona bağlı olarak düşürülür.
 - Adım 7: Eğer iterasyona devam edilecekse Adım 2'den devam edilir.
 - Adım 8: İterasyon sonlandıysa değerler ekrana verilir ve program sonlanır.
  
- ### Metafor bazlı fonksiyonlar üzerinde Tavlama Benzetimi algoritmasının incelenmesi
- 
+ ### Sonuçlar
+ &emsp;&emsp;TB algoritması metafor bazlı dört farklı fonksiyon üzerinde test edilmiş ve sonuçları aşağıdaki gibi paylaşılmıştır.
  #### Ackley Fonksiyonu
  
  - 700 derece başlangıç sıcaklığı ve 500*50 tekrarlanan bir döngü sonucunda;
