@@ -172,8 +172,8 @@ def main():
     try:
         simulatedAnneling(
             numberOfIterations=[50, 500],
-            functionToOptimize=gold_stein_price,
-            functionRange=gold_stein_price_test_range
+            functionToOptimize=levi,
+            functionRange=levi_test_range
         )
     except Exception as e:
         print(e)

@@ -36,8 +36,8 @@
  
  #### Ackley Fonksiyonu
  
-- Fonksiyon: ![\Large x=f(x,y)={-20exp[-0.2\sqrt{0.5(x^2+y^2)}]-exp[0.5(cos2{\pi}x+cos2{\pi}y)]+e+20}](https://latex.codecogs.com/svg.latex?\Large&space;f(x,y)={-20exp[-0.2\sqrt{0.5(x^2+y^2)}]-exp[0.5(cos2{\pi}x+cos2{\pi}y)]+e+20}) 
-- Global minimum: ![\Large x=f(0,0)={0}](https://latex.codecogs.com/svg.latex?\Large&space;f(0,0)={0})
+- Fonksiyon: ![\Large x=f(x,%20y)={-20exp[-0.2\sqrt{0.5(x^2+y^2)}]-exp[0.5(cos2{\pi}x+cos2{\pi}y)]+e+20}](https://latex.codecogs.com/svg.latex?\Large&space;f(x,%20y)={-20exp[-0.2\sqrt{0.5(x^2+y^2)}]-exp[0.5(cos2{\pi}x+cos2{\pi}y)]+e+20}) 
+- Global minimum: ![\Large x=f(0,%200)={0}](https://latex.codecogs.com/svg.latex?\Large&space;f(0,%200)={0})
 - Değer aralığı: ![\Large x=-5%20\leq%20x,y%20\leq%205](https://latex.codecogs.com/svg.latex?\Large&space;-5%20\leq%20x,y%20\leq%205)
 
 Elde edilen değerler
@@ -49,11 +49,45 @@ Elde edilen değerler
 ![ackley](https://user-images.githubusercontent.com/51250249/108876819-ab922200-760f-11eb-9a6b-a01f2da187f6.png)
 
  #### Beale Fonksiyonu
- 
--
+
+- Fonksiyon: ![\Large x=f(x,%20y)={(1.5%20-%20x%20+%20xy)^2%20+%20(2.25%20-%20x%20+%20xy^2)^2%20+%20(2.625%20-%20x%20+%20xy^3)^2}](https://latex.codecogs.com/svg.latex?\Large&space;f(x,%20y)={(1.5%20-%20x%20+%20xy)^2%20+%20(2.25%20-%20x%20+%20xy^2)^2%20+%20(2.625%20-%20x%20+%20xy^3)^2}) 
+- Global minimum: ![\Large x=f(3,%200.5)={0}](https://latex.codecogs.com/svg.latex?\Large&space;f(3,%200.5)={0})
+- Değer aralığı: ![\Large x=-4.5%20\leq%20x,y%20\leq%204.5](https://latex.codecogs.com/svg.latex?\Large&space;-4.5%20\leq%20x,y%20\leq%204.5)
+
+Elde edilen değerler
+
+- En iyi çözüm için x ve y: 3.0756646925140005, 0.5286730640983099
+- En iyi x ve y için sonuç: 0.003704091519416439
+- 50 iterasyon sonucunda elde edilen grafikler;
+
+![beale](https://user-images.githubusercontent.com/51250249/108878274-27d93500-7611-11eb-8590-d3d3ef23f0fc.png)
 
  #### Goldstein-Price Fonksiyonu
 
+- Fonksiyon: ![\Large x=f(x,%20y)={[1%20+%20(x%20+%20y%20+%201)^2(19%20-%2014x%20+%203x^2%20-%2014y%20+%206xy%20+%203y^2)][30%20+%20(2x%20-%203y)^2(18%20-%2032x%20+%2012x^2%20+%2048y%20-%2036xy%20+%2027y^2)]}](https://latex.codecogs.com/svg.latex?\Large&space;f(x,%20y)={[1%20+%20(x%20+%20y%20+%201)^2(19%20-%2014x%20+%203x^2%20-%2014y%20+%206xy%20+%203y^2)][30%20+%20(2x%20-%203y)^2(18%20-%2032x%20+%2012x^2%20+%2048y%20-%2036xy%20+%2027y^2)]}) 
+- Global minimum: ![\Large x=f(0,%20-1)={3}](https://latex.codecogs.com/svg.latex?\Large&space;f(0,%20-1)={3})
+- Değer aralığı: ![\Large x=-2%20\leq%20x,y%20\leq%202](https://latex.codecogs.com/svg.latex?\Large&space;-2%20\leq%20x,y%20\leq%202)
 
- #### Levi Fonksiyonu
- 
+Elde edilen değerler
+
+- En iyi çözüm için x ve y: -0.003973639126817308, -1.0052460061942456
+- En iyi x ve y için sonuç: 3.011428548092107
+- 50 iterasyon sonucunda elde edilen grafikler;
+
+![gsp](https://user-images.githubusercontent.com/51250249/108879024-e09f7400-7611-11eb-90da-a1e1527c7a7b.png)
+
+
+ #### Lévi Fonksiyonu
+
+- Fonksiyon: ![\Large x=f(x,%20y)={sin^23{\pi}x%20+%20(x%20-%201)^2(1%20+%20sin^23{\pi}y)%20+%20(y%20-%201)^2(1%20+%20sin^22{\pi}y)}](https://latex.codecogs.com/svg.latex?\Large&space;f(x,%20y)={sin^23{\pi}x%20+%20(x%20-%201)^2(1%20+%20sin^23{\pi}y)%20+%20(y%20-%201)^2(1%20+%20sin^22{\pi}y)}) 
+- Global minimum: ![\Large x=f(0,%20-1)={3}](https://latex.codecogs.com/svg.latex?\Large&space;f(0,%20-1)={3})
+- Değer aralığı: ![\Large x=-2%20\leq%20x,y%20\leq%202](https://latex.codecogs.com/svg.latex?\Large&space;-2%20\leq%20x,y%20\leq%202)
+
+Elde edilen değerler
+
+- En iyi çözüm için x ve y: 0.9921885050472286, 1.0427844298879307
+- En iyi x ve y için sonuç: 0.007440404165127328
+- 50 iterasyon sonucunda elde edilen grafikler;
+
+![levi](https://user-images.githubusercontent.com/51250249/108880852-b9e23d00-7613-11eb-8fca-52da14e66610.png)
+
