@@ -1,17 +1,33 @@
 - [EN description](#en)  
 - [TR açıklama](#tr)
 
-
-
 # Tavlama Benzetimi(Simulated Annealing)
 
 # [TR]
 
+## What is the Simulated Annealing ?
+&emsp;&emsp;SA is the meta-heuristic method used to stochastically estimate the global optimum of a given function.
+
+## How Does SA Work ? 
+&emsp;&emsp;Annealing comes from a technique in which the structure of metal is strengthened by heating the metal to a certain level and cooling it in a controlled, which is one of the frequently used processes in metallurgy. We can create the algorithm of the same technique, we can apply this algorithm to functions and obtain global minimum values of the functions.
+
+- Step 1: The initial solution and initial temperature are determined.
+- Step 2: New neighboring x, y values are generated randomly against existing x, y values.
+- Step 3: The current solution is compared with the new neighboring values and the calculated solution.
+- Step 4: If new solution > existing solution; The Boltzmann distribution is calculated.
+   - Step 4.1: A random value is calculated and the values are updated if the calculated value is > Boltzmann distribution.
+- Step 5: If new solution <= existing solution; the values are updated
+- Step 6: Temperature is lowered depending on fraction value.
+- Step 7: If the iteration is to continue, continue from Step 2.
+- Step 8: If the iteration is completed, the values ​​are displayed and the program is terminated.
+
+# [TR]
+
 ## Tavlama Benzetimi Nedir ?
-&emsp;&emsp;Tavlama benzetimi belirli bir fonksiyonun global optimum değerini stokastik olarak tahmin etmek için kullanılan meta-sezgisel yöntemdir.
+&emsp;&emsp;TB belirli bir fonksiyonun global optimum değerini stokastik olarak tahmin etmek için kullanılan meta-sezgisel yöntemdir.
  
 # Nasıl Çalışır ?
-&emsp;&emsp;Tavlama(Annealing), metalürjide sıkça kullanılan işlemlerden biri olan metali belirli bir seviyeye kadar ısıtıp kontrollü olarak soğutarak yapısının sağlamlaştırıldığı bir teknikten gelmektedir. Aynı tekniği algoritmaya döküp fonksiyonlara uygulayarak fonksiyonların global minimumlarını elde edebiliriz.
+&emsp;&emsp;Tavlama(Annealing), metalürjide sıkça kullanılan işlemlerden biri olan metali belirli bir seviyeye kadar ısıtıp kontrollü olarak soğutarak yapısının sağlamlaştırıldığı bir teknikten gelmektedir. Aynı tekniği algoritmaya döküp fonksiyonlara uygulayarak fonksiyonların global minimum değerlerini elde edebiliriz.
 
 - Adım 1: Başlangıç çözümü, başlangıç sıcaklığı, başlangıç çözümü belirlenir.
 - Adım 2: Mevcut x,y değerlerine karşın rassal olarak yeni komşu x,y değerleri üretilir.
