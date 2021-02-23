@@ -36,7 +36,7 @@
  
  #### Ackley Fonksiyonu
  
-- Fonksiyon: ![\Large x=f(x,%20y)={-20exp[-0.2\sqrt{0.5(x^2%20+%20y^2)}]-exp[0.5(cos2{\pi}x%20+%20cos2{\pi}y)]%20+%20e%20+%2020}](https://latex.codecogs.com/svg.latex?\Large&space;f(x,%20y)={-20exp[-0.2\sqrt{0.5(x^2%20+%20y^2)}]-exp[0.5(cos2{\pi}x%20+%20cos2{\pi}y)]%20+%20e%20+%20320}) 
+- Fonksiyon: ![\Large x=f(x,%20y)={-20exp[-0.2\sqrt{0.5(x^2%20+%20y^2)}]-exp[0.5(cos2{\pi}x%20+%20cos2{\pi}y)]%20+%20e%20+%20{20}}](https://latex.codecogs.com/svg.latex?\Large&space;f(x,%20y)={-20exp[-0.2\sqrt{0.5(x^2%20+%20y^2)}]-exp[0.5(cos2{\pi}x%20+%20cos2{\pi}y)]%20+%20e%20+%20{20}}) 
 - Global minimum: ![\Large x=f(0,%200)={0}](https://latex.codecogs.com/svg.latex?\Large&space;f(0,%200)={0})
 - Değer aralığı: ![\Large x=-5%20\leq%20x,y%20\leq%205](https://latex.codecogs.com/svg.latex?\Large&space;-5%20\leq%20x,y%20\leq%205)
 
