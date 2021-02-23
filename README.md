@@ -1,8 +1,12 @@
 - [EN description](#en)  
 - [TR açıklama](#tr)
+
+
+
 # Tavlama Benzetimi(Simulated Annealing)
 
 # [TR]
+
 ## Tavlama Benzetimi Nedir ?
 &emsp;&emsp;Tavlama benzetimi belirli bir fonksiyonun global optimum değerini stokastik olarak tahmin etmek için kullanılan meta-sezgisel yöntemdir.
  
@@ -20,35 +24,36 @@
 - Adım 8: İterasyon sonlandıysa değerler ekrana verilir ve program sonlanır.
  
  ### Sonuçlar
- &emsp;&emsp;TB algoritması metafor bazlı dört farklı fonksiyon üzerinde test edilmiş ve sonuçları aşağıdaki gibi paylaşılmıştır.
+ 
+ &emsp;&emsp;TB algoritması metafor bazlı dört farklı fonksiyon üzerinde test edilmiş ve sonuçları aşağıdaki gibidir. Tüm testlerde 'simulatedAnnealing' fonksiyonu için aşağıdaki parametreler kullanılmıştır.
+
+- startedLocation=[0.5, -0.5],
+- numberOfIterations=[50, 500],
+- temperatureValues=700,
+- fraction=.88,
+- functionToOptimize=[İLGİLİ_FONKSİYON],
+- functionRange=[İLGİLİ_FONKSİYON_ARALIĞI]
+ 
  #### Ackley Fonksiyonu
  
- - 700 derece başlangıç sıcaklığı ve 500*50 tekrarlanan bir döngü sonucunda;
- - 0 - 53 arası iterasyon değerleri
- ![Ekran görüntüsü 2020-12-20 18-33-19](https://user-images.githubusercontent.com/51250249/102717243-1bbfb700-42f2-11eb-96f9-089d2050930c.png)
- - 449 - 499 arası iterasyon değerleri ve nihai sonuçlar
- ![Ekran görüntüsü 2020-12-20 18-33-22](https://user-images.githubusercontent.com/51250249/102717279-5de8f880-42f2-11eb-9b9a-89d70a2ac8b9.png)
- 
+- Fonksiyon: ![\Large x=f(x,y)={-20exp[-0.2\sqrt{0.5(x^2+y^2)}]-exp[0.5(cos2{\pi}x+cos2{\pi}y)]+e+20}](https://latex.codecogs.com/svg.latex?\Large&space;f(x,y)={-20exp[-0.2\sqrt{0.5(x^2+y^2)}]-exp[0.5(cos2{\pi}x+cos2{\pi}y)]+e+20}) 
+- Global minimum: ![\Large x=f(0,0)={0}](https://latex.codecogs.com/svg.latex?\Large&space;f(0,0)={0})
+- Değer aralığı: ![\Large x=-5%20\leq%20x,y%20\leq%205](https://latex.codecogs.com/svg.latex?\Large&space;-5%20\leq%20x,y%20\leq%205)
+
+Elde edilen değerler
+
+- En iyi çözüm için x ve y: -0.0017175650567326506, -0.001767226084160134
+- En iyi x ve y için sonuç: 0.007132000788232062
+- 50 iterasyon sonucunda elde edilen grafikler;
+
+![ackley](https://user-images.githubusercontent.com/51250249/108876819-ab922200-760f-11eb-9a6b-a01f2da187f6.png)
+
  #### Beale Fonksiyonu
  
-- 700 derece başlangıç sıcaklığı ve 500*50 tekrarlanan bir döngü sonucunda;
-- 0 - 53 arası iterasyon değerleri
-![Ekran görüntüsü 2020-12-20 18-39-08](https://user-images.githubusercontent.com/51250249/102717331-ae605600-42f2-11eb-996f-dd286d634242.png)
-- 449 - 499 arası iterasyon değerleri ve nihai sonuçlar
-![Ekran görüntüsü 2020-12-20 18-39-13](https://user-images.githubusercontent.com/51250249/102717335-b02a1980-42f2-11eb-91cd-78bd5a262b2e.png)
+-
 
  #### Goldstein-Price Fonksiyonu
- 
-- 700 derece başlangıç sıcaklığı ve 500*50 tekrarlanan bir döngü sonucunda;
-- 0 - 53 arası iterasyon değerleri
-![Ekran görüntüsü 2020-12-20 18-40-56](https://user-images.githubusercontent.com/51250249/102717364-ec5d7a00-42f2-11eb-8cb2-d2825a1dc261.png)
-- 449 - 499 arası iterasyon değerleri ve nihai sonuçlar
-![Ekran görüntüsü 2020-12-20 18-40-59](https://user-images.githubusercontent.com/51250249/102717367-ee273d80-42f2-11eb-9f83-516a31d753ae.png)
+
 
  #### Levi Fonksiyonu
  
-- 700 derece başlangıç sıcaklığı ve 500*50 tekrarlanan bir döngü sonucunda;
-- 0 - 53 arası iterasyon değerleri
-![Ekran görüntüsü 2020-12-20 18-42-56](https://user-images.githubusercontent.com/51250249/102717418-35153300-42f3-11eb-884e-2de580c3deb1.png)
-- 449 - 499 arası iterasyon değerleri ve nihai sonuçlar
-![Ekran görüntüsü 2020-12-20 18-42-59](https://user-images.githubusercontent.com/51250249/102717419-36def680-42f3-11eb-8cd5-8ea69c779796.png)
