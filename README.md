@@ -1,14 +1,14 @@
 - [EN description](#en)  
 - [TR açıklama](#tr)
 
-# Tavlama Benzetimi(Simulated Annealing)
+# Tavlama Benzetimi(Simulated Annealing, SA)
 
 # [EN]
 
 ## What is the Simulated Annealing ?
 &emsp;&emsp;SA is the meta-heuristic method used to stochastically estimate the global optimum of a given function.
 
-## How Does SA Work ? 
+## How SA Works ? 
 &emsp;&emsp;Annealing comes from a technique in which the structure of metal is strengthened by heating the metal to a certain level and cooling it in a controlled, which is one of the frequently used processes in metallurgy. We can create the algorithm of the same technique, we can apply this algorithm to functions and obtain global minimum values of the functions.
 
 - Step 1: The initial solution and initial temperature are determined.
@@ -20,16 +20,16 @@
 - Step 6: Temperature is lowered depending on fraction value.
 - Step 7: If the iteration is to continue, continue from Step 2.
 - Step 8: If the iteration is completed, the values ​​are displayed and the program is terminated.
-- 
+ 
 ### Results
  
  &emsp;&emsp;The SA algorithm has been tested on four different metaphor-based functions and the results are as follows. The following parameters are used for the 'simulatedAnnealing' function in all tests.
 
-- startedLocation=[0.5, -0.5],
-- numberOfIterations=[50, 500],
-- temperatureValues=700,
-- fraction=.88,
-- functionToOptimize=[RELATED_FUNCTION],
+- startedLocation=[0.5, -0.5]
+- numberOfIterations=[50, 500]
+- temperatureValues=700
+- fraction=.88
+- functionToOptimize=[RELATED_FUNCTION]
 - functionRange=[RELATED_FUNCTION_RANGE]
 
 
