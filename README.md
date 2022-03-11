@@ -1,5 +1,6 @@
 - [EN description](#en)  
 - [TR açıklama](#tr)
+- [Paper(Bildiri)](https://www.fatiiates.com/doc/notice_optimization.pdf)
 
 # Tavlama Benzetimi(Simulated Annealing, SA)
 
